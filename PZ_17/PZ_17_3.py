@@ -40,8 +40,12 @@ def task4():
 def task5():
     '''перейти в любую папку где есть отчет в формате .pdf и «запустите» файл в
     # привязанной к нему программе. Использовать функцию os.startfile().'''
-    os.startfile('../reports/PZ_5.pdf')
+    # os.startfile('../reports/PZ_5.pdf')
 
     '''удалить файл test.txt.'''
-    os.remove('../reports/PZ_2.pdf')
+    # os.remove('../reports/PZ_2.pdf')
     print("Файл test.txt удален")
+
+task1()
+task4()
+task5()
